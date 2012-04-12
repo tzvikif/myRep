@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FZAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    BOOL isOK;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
